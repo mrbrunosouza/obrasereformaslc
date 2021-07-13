@@ -1,3 +1,5 @@
+import { AboutUs } from "../Components/AboutUs";
+import { FeaturedWork } from "../Components/FeaturedWork";
 import { Main } from "../Components/Main";
 import { MainServices } from "../Components/MainServices";
 import { Quote } from "../Components/Quote";
@@ -10,6 +12,8 @@ export default function Home() {
       <Main />
       <Quote />
       <MainServices />
+      <FeaturedWork />
+      <AboutUs />
     </>
   )
 }

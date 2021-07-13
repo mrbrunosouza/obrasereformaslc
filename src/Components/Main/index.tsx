@@ -6,7 +6,7 @@ export function Main() {
       <div className="content-section">
         <div>
           <p className="line typing-animation">
-            LC Reformas
+            Obras e reformas
           </p>
         </div>
         <Content>

@@ -31,7 +31,7 @@ export function MainServices() {
         {services.map((service) => (
           <Service key={service.title}>
             <div className="service-icon">
-              <img src="down-arrow.svg" alt="" />
+              <img src="right-arrow.svg" alt="" />
             </div>
             <div>
               <p className="title">

@@ -7,6 +7,8 @@ export const Container = styled.section`
 
   h2 {
     margin-bottom: 3rem;
+    text-transform: uppercase;
+    font-weight: 500;
   }
 
   .services-section {

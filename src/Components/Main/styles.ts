@@ -45,6 +45,7 @@ export const Container = styled.section`
     white-space: nowrap;
     overflow: hidden;
     margin-bottom: 1rem;
+    width: 55rem;
   }
 
   .typing-animation {
