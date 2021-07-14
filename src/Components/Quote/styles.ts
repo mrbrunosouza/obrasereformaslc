@@ -1,13 +1,18 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
+  padding: 2rem 0;
+  
+  background: #003E98;  
+`
+
+export const Content = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
-  padding: 2rem 20rem;
-  
-  background: #003E98;
+
+  width: 1260px;
+  margin: 0 auto;
   
   color: #FFF;
   font-size: 1.5rem;

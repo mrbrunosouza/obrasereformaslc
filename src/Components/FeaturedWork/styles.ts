@@ -1,7 +1,11 @@
 import styled, { css } from "styled-components";
 
 export const Container = styled.section`
-padding: 5rem 20rem;
+padding: 5rem 0;
+
+display: flex;
+flex-direction: column;
+align-items: center;
 
 background-image: url('background-featured-services.png');
 background-size: cover;
@@ -13,10 +17,10 @@ color: #FFF;
 
 export const Title = styled.div`
  display: flex;
- align-items: center;
  justify-content: space-between;
  padding-bottom: 3rem;
 
+ width: 1260px;
 
  h2 {
    font-weight: 400;
@@ -60,8 +64,9 @@ export const Title = styled.div`
 
 export const Gallery = styled.div`
   display: flex;
-  align-items: center;
   justify-content: space-between;
+
+  width: 1260px;
 `
 
 export const ImgButton = styled.figure`

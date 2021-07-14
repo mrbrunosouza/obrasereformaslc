@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  padding: 4rem 20rem;
+  max-width: 1260px;
+  margin: 0 auto;
+  
+  padding: 4rem 0;
 
   text-align: center;
 

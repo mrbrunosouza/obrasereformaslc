@@ -1,14 +1,16 @@
-import { Container } from "./styles";
+import { Container, Content } from "./styles";
 
 export function Quote() {
   return (
     <Container>
-      <p>
-        Reformas &amp; Construções Desde 2014
-      </p>
-      <button>
-        Solicite um orçamento
-      </button>
+      <Content>
+        <p>
+          Reformas &amp; Construções Desde 2014
+        </p>
+        <button>
+          Solicite um orçamento
+        </button>
+      </Content>
     </Container>
   )
 }
