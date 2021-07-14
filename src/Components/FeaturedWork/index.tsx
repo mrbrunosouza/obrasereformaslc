@@ -23,9 +23,9 @@ const imgGallery = [
 
 export function FeaturedWork() {
   return (
-    <Container>
+    <Container id="projetos-realizados">
       <Title>
-        <h2>Serviços realizados</h2>
+        <h2>Projetos realizados</h2>
         <div className="button-section">
           <button>
             <svg width="63" height="117" viewBox="0 0 63 117" xmlns="http://www.w3.org/2000/svg">
@@ -53,8 +53,8 @@ export function FeaturedWork() {
       </Title>
       <Gallery>
         {imgGallery.map((image) => (
-          <a href="">
-            <ImgButton key={image.id}>
+          <a href="" key={image.id}>
+            <ImgButton>
               <img src={image.urlImage} alt="" />
               <figcaption>
                 <div className="figure-legend">

@@ -28,7 +28,7 @@ export function Testimonials() {
   const [viewTestimonial, setViewTestimonial] = useState(0)
 
   return(
-    <Container>
+    <Container id="depoimentos">
         <Header>
           <h3>Depoimentos</h3>
           <div className="button-section">

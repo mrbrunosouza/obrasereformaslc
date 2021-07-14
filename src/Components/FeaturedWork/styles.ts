@@ -70,8 +70,6 @@ export const Gallery = styled.div`
 `
 
 export const ImgButton = styled.figure`
-  background: red;
-
  position: relative;
  width: 23rem;
  height: 23rem;

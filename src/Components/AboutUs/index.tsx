@@ -19,7 +19,7 @@ export function AboutUs() {
   const [active, setActive] = useState(false)
 
   return (
-    <Container>
+    <Container id="sobre-nos">
       <section className="section-about">
         <h2>Por que escolher a LC Reformas?</h2>
         {whyChooseUs.map((option) => (
