@@ -46,7 +46,7 @@ export default function Projetos() {
         <h2>Projetos realizados</h2>
       </Title>
       <Gallery>
-        <h3>Galeria de projetos</h3>
+        <h3 className="gallery-title">Galeria de projetos</h3>
         <p className="description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis 
           non ea tempore omnis deserunt, quibusdam laborum voluptatum aliquam, 

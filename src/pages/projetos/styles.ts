@@ -27,16 +27,23 @@ export const Gallery = styled.section`
 
   text-align: center;
 
+  .gallery-title {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
   .description {
     width: 65%;
     margin: 2rem auto;
   }
+
 `
 
 export const Projects = styled.section`
-  background: red;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
   gap: 2rem;
 
   width: 1280px;

@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const Container = styled.section`
 padding: 5rem 0;
@@ -35,30 +35,15 @@ export const Title = styled.div`
    gap: 0.5rem;
  }
 
- button {
+ a {
   background: none;
   border: 1px solid #00AECC;
-  padding: 0.7rem;
+  color: #aaa;
+  padding: 0.7rem 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   filter: brightness(1.3);
-
-  svg {
-    width: 0.5rem;
-    height: 0.5rem;
-    fill: #00AECC;
-    filter: brightness(1.3);
-  }
-
-  &:disabled {
-    cursor: default;
-    border-color: #333;
-
-    svg {
-      fill: #333;
-    }
-  }
  }
 `
 

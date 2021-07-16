@@ -5,14 +5,14 @@ const testimonials = [
   {
     id: 1,
     testimonial: 'O trabalho foi excepcional, um maravilhoso serviço. Gostei muito daquele gordinho que ficou responsável pela obra',
-    client: 'Giuseppe Cadura',
+    client: 'Fulano de Tal',
     company: 'Torre gêmeas'
   },
   {
     id: 2,
     testimonial: 'Feito com muita excelência, sempre recomendarei o trabalho dessa empresa',
-    client: 'Lima Silva',
-    company: 'Limas Turbo'
+    client: 'Fulano de tal',
+    company: 'Casa interior'
 
   },
   {

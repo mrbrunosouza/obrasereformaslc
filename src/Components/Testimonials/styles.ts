@@ -26,7 +26,7 @@ export const Header = styled.div`
 
  button {
   background: none;
-  border: 1px solid #003E98;
+  border: 1px solid #00AECC;
   padding: 0.7rem;
   display: flex;
   align-items: center;
@@ -36,7 +36,7 @@ export const Header = styled.div`
   svg {
     width: 0.5rem;
     height: 0.5rem;
-    fill: #003E98;
+    fill: #00AECC;
     filter: brightness(1.3);
   }
 
