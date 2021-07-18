@@ -5,7 +5,7 @@ const testimonials = [
   {
     id: 1,
     testimonial: 'O trabalho foi excepcional, um maravilhoso serviço. Gostei muito daquele gordinho que ficou responsável pela obra',
-    client: 'Fulano de Tal',
+    client: 'Dono da obra',
     company: 'Torre gêmeas'
   },
   {
