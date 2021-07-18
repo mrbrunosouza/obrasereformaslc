@@ -1,39 +1,41 @@
+import Image from 'next/image'
+
 import { Container, Gallery, Projects, ImgButton, Title } from "./styles";
 
 const imgGallery = [
   {
     id: 1,
-    urlImage: '../projetos/predio.png',
+    urlImage: '/projetos/predio.png',
     nameService: 'Torre gêmeas',
     typeService: 'Construção'
   },
   {
     id: 2,
-    urlImage: '../projetos/casa.png',
+    urlImage: '/projetos/casa.png',
     nameService: 'Casa de campo',
     typeService: 'Construção'
   },
   {
     id: 3,
-    urlImage: '../projetos/casa-interior.png',
+    urlImage: '/projetos/casa-interior.png',
     nameService: 'Sala de vídeo',
     typeService: 'Reforma'
   },
   {
     id: 4,
-    urlImage: '../projetos/predio.png',
+    urlImage: '/projetos/predio.png',
     nameService: 'Torre gêmeas',
     typeService: 'Construção'
   },
   {
     id: 5,
-    urlImage: '../projetos/casa.png',
+    urlImage: '/projetos/casa.png',
     nameService: 'Casa de campo',
     typeService: 'Construção'
   },
   {
     id: 6,
-    urlImage: '../projetos/casa-interior.png',
+    urlImage: '/projetos/casa-interior.png',
     nameService: 'Sala de vídeo',
     typeService: 'Reforma'
   },
@@ -57,7 +59,7 @@ export default function Projetos() {
           {imgGallery.map((image) => (
             <a href="" key={image.id}>
               <ImgButton>
-                <img src={image.urlImage} alt="" />
+                <Image src={image.urlImage} alt="" width={500} height={500}/>
                 <figcaption>
                   <div className="figure-legend">
                     <h3>{image.nameService}</h3>
