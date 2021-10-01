@@ -1,23 +1,24 @@
+/* eslint-disable @next/next/no-img-element */
 import { Container, Gallery, ImgButton, Title } from "./styles";
 
 const imgGallery = [
   {
     id: 1,
-    urlImage: 'projetos/predio.png',
-    nameService: 'Torre gêmeas',
-    typeService: 'Construção'
+    urlImage: 'projetos/molas_1.jpeg',
+    nameService: 'Troca de molas',
+    typeService: 'Suspensão'
   },
   {
     id: 2,
-    urlImage: 'projetos/casa.png',
-    nameService: 'Casa de campo',
-    typeService: 'Construção'
+    urlImage: 'projetos/molas_2.jpeg',
+    nameService: 'Substituição de molas',
+    typeService: 'Suspensão'
   },
   {
     id: 3,
-    urlImage: 'projetos/casa-interior.png',
-    nameService: 'Sala de vídeo',
-    typeService: 'Reforma'
+    urlImage: 'projetos/molas_1.jpeg',
+    nameService: 'Molas',
+    typeService: 'Suspensão'
   },
 ];
 
@@ -25,7 +26,7 @@ export function FeaturedWork() {
   return (
     <Container id="projetos-realizados">
       <Title>
-        <h2>Projetos realizados</h2>
+        <h2>Serviços realizados</h2>
         <div className="button-section">
           <a href="/projetos">Veja Mais...</a>
         </div>

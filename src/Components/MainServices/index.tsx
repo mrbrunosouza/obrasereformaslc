@@ -1,24 +1,21 @@
+/* eslint-disable @next/next/no-img-element */
 import { Container, Service } from "./styles";
 
 const services = [
   {
-    title: "Telhados",
+    title: "Suspensão",
     description: 'Aqui vai um pequeno texto para demonstrar o serviço que fazemos'
   },
   {
-    title: "Impermeabilização",
+    title: "Freios",
     description: 'Aqui vai um pequeno texto para demonstrar o serviço que fazemos'
   },
   {
-    title: "Pintura",
+    title: "Soldas",
     description: 'Aqui vai um pequeno texto para demonstrar o serviço que fazemos'
   },
   {
-    title: "Pavimentação",
-    description: 'Aqui vai um pequeno texto para demonstrar o serviço que fazemos'
-  },
-  {
-    title: "Construção Civil",
+    title: "Torno",
     description: 'Aqui vai um pequeno texto para demonstrar o serviço que fazemos'
   },
 ];

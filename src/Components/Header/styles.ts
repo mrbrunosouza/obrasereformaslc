@@ -18,6 +18,11 @@ color: #FFF;
   padding: 0 20rem;
   height: 79px;
 }
+
+.logo {
+  background: #FFF;
+  border-radius: 50%;
+}
 `
 
 export const Logo = styled.a`

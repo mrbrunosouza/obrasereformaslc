@@ -62,7 +62,7 @@ export const Buttons = styled.div`
   }
 
   .active {
-    background: #003E98;
+    background: #3a3464;
     color: #FFF;
 
     svg {

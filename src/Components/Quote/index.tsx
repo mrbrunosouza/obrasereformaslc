@@ -5,10 +5,10 @@ export function Quote() {
     <Container>
       <Content>
         <p>
-          Reformas &amp; Construções Desde 2014
+          Suspensão &amp; Freios Desde 2011
         </p>
         <button>
-          Solicite um orçamento
+          Entre em contato
         </button>
       </Content>
     </Container>

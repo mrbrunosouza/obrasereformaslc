@@ -15,7 +15,7 @@ export default function Home() {
       <Main />
       <Quote />
       <MainServices />
-      <FeaturedWork />
+      {/* <FeaturedWork /> */}
       <AboutUs />
       <CompanyFacts />
       <Testimonials />

@@ -34,7 +34,7 @@ export const Service = styled.div`
     justify-content: center;
 
     border-radius: 100%;
-    background: #003E98;
+    background: #3a3464;
     padding: 1rem;
 
     img {

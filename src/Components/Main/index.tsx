@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Button, Container, Content, PageDown } from "./styles";
 
 export function Main() {
@@ -6,12 +7,12 @@ export function Main() {
       <div className="content-section">
         <div>
           <p className="line typing-animation">
-            Obras e reformas
+            Abraão posto de molas
           </p>
         </div>
         <Content>
           <h1 className="title">
-            <span>Nossa experiência garante que seus projetos serão realizados</span>
+            <span>Nossa experiência garante que seus serviços serão realizados</span>
             <span>da maneira correta e com o máximo profissionalismo.</span>
           </h1>
         </Content>

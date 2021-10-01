@@ -16,44 +16,6 @@ const typing = keyframes`
   100% { border: transparent;}
 `
 
-export const Container = styled.section`
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 18rem;
-  
-.content-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-  .line {
-    display: flex;
-    font-size: 5rem;
-    color: #FFF;
-    text-shadow: #222 0 0 8px;
-    text-transform: uppercase;
-    font-weight: 600;
-    border-right: 2px solid rgba(255, 255, 255, 0.75);
-    white-space: nowrap;
-    overflow: hidden;
-    margin-bottom: 1rem;
-    width: 55rem;
-  }
-
-  .typing-animation {
-    animation: ${blinkCursor} 800ms steps(20) infinite normal, 
-    ${typing} 5s steps(20) 1s normal both;
-  }
-`
-
 const titleAnimation = keyframes`
   0% {
       transform: translateY(-50px);
@@ -99,6 +61,50 @@ const pageDownAnimation = keyframes`
       opacity: 1;
       -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0);
       clip-path: polygon(100% 0, 100% 100%, 0 100%, 0);
+  }
+`
+
+export const Container = styled.section`
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 18rem;
+  
+.content-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+  .line {
+    display: flex;
+    font-size: 5rem;
+    color: #FFF;
+    text-shadow: #222 0 0 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* border-right: 2px solid rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    width: 55rem; */
+  }
+
+  .typing-animation {
+    /* animation: ${blinkCursor} 800ms steps(20) infinite normal, 
+    ${typing} 5s steps(20) 1s normal both; */
+
+    opacity: 0;
+    animation-name: ${buttonAnimation};
+    animation-duration: 4s;
+    animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
   }
 `
 
@@ -173,7 +179,7 @@ export const Content = styled.section`
 `
 
 export const Button = styled.a`
-  background: #003E98;
+  background: #3a3464;
   padding: 1rem 2rem;
   border-radius: 5px;
   margin-top: 3rem;

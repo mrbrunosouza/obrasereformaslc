@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Contacts, Container, Socials } from "./styles";
 
 interface ContactProps {
@@ -8,10 +9,10 @@ export function Contact({ background }: ContactProps) {
   return(
     <Container background={background}>
         <Socials>
-          <a href="https://www.facebook.com" target="_blank">
+          <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
             <img src="logo-fb.svg" alt="Imagem do facebook" />
           </a>
-          <a href="https://www.instagram.com" target="_blank">
+          <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
             <img src="insta.png" alt="Imagem do instagram" />
           </a>
         </Socials>

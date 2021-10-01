@@ -11,6 +11,8 @@ export const Container = styled.footer`
 
   .logo {
     width: 7rem;
+    background: #FFF;
+    border-radius: 50%;
   }
 `
 

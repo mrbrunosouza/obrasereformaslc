@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
 import { Buttons, Container } from "./styles";
 
@@ -21,14 +22,14 @@ export function AboutUs() {
   return (
     <Container id="sobre-nos">
       <section className="section-about">
-        <h2>Por que escolher a LC Reformas?</h2>
+        <h2>Por que escolher o Abraão Posto de Molas?</h2>
         {whyChooseUs.map((option) => (
           <Buttons key={option.id}>
             <button 
               onClick={() => {setOptionSelected(option.id), setActive(!active)}} 
               className={`${option.id === optionSelected ? 'active' : ''}`}
             >
-              {option.id === optionSelected ? <img src="not-show.svg" alt="" /> : <img src="show-more.svg" alt="" />}
+              {option.id === optionSelected ? <img src="not-show.svg" alt="" /> : <img src="show-more.svg" alt="" /> }  
               {option.title}
               <svg width="117" height="63" viewBox="0 0 117 63" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path 
@@ -50,11 +51,11 @@ export function AboutUs() {
       <section className="section-about">
         <h2>Sobre nós</h2>
         <p className="first-paragraph">
-          A Obras e reformas LC é uma empresa com mais de 7 anos de mercado e que vem garantindo a satisfação de inúmeros clientes.
+          Abraão Posto de Molas é uma empresa com mais de 10 anos de mercado e que vem garantindo a satisfação de inúmeros clientes.
         </p>
         <br />
         <p>
-          Hoje ela oferece diversos tipos de serviço como construção civil, obras e reformas em geral, serviços como construção e manutenção de telhados, pinturas em geral, serviço de impermeabilização e pavimentação &#40;paver e concreto&#41;.
+          Hoje oferecemos diversos tipos de serviço em suspensão, freios, soldas e muito mais para seu caminhão.
         </p>
       </section>
     </Container>

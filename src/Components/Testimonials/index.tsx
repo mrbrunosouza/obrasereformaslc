@@ -4,22 +4,22 @@ import { Container, Header, Testimonial } from "./styles";
 const testimonials = [
   {
     id: 1,
-    testimonial: 'O trabalho foi excepcional, um maravilhoso serviço. Gostei muito daquele gordinho que ficou responsável pela obra',
-    client: 'Dono da obra',
-    company: 'Torre gêmeas'
+    testimonial: 'O trabalho foi excepcional, um maravilhoso serviço. Gostei muito daquele gordinho que fez minha mola',
+    client: 'Caminhão do brasil',
+    company: 'Empresa 01'
   },
   {
     id: 2,
     testimonial: 'Feito com muita excelência, sempre recomendarei o trabalho dessa empresa',
     client: 'Fulano de tal',
-    company: 'Casa interior'
+    company: 'Cliente do interior'
 
   },
   {
     id: 3,
-    testimonial: 'Fantástico!!! Mudou o visual da minha empresa com a reforma realizada pela LC Reformas',
+    testimonial: 'Fantástico!!! Mudou a forma de dirigir meu caminhão depois do serviço da Abraão posto de molas',
     client: 'Fulano de Tal',
-    company: 'Casa da chácara'
+    company: 'Empresa 02'
   },
 ]
 

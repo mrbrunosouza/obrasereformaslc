@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import { Fade } from 'react-slideshow-image';
 import { Container } from './styles';
@@ -5,15 +7,15 @@ import { Container } from './styles';
 const fadeImages = [
   {
     id: 1,
-    urlImage: 'slide/image-1.jpg'
+    urlImage: 'slide/oficina-1.jpeg'
   },
   {
     id: 2,
-    urlImage: 'slide/image-2.jpg'
+    urlImage: 'slide/oficina-2.jpeg'
   },
   {
     id: 3,
-    urlImage: 'slide/image-3.jpg'
+    urlImage: 'slide/oficina-3.jpeg'
   },
 ];
 
